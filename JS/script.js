@@ -9,7 +9,7 @@ const newDiv = document.getElementById("box-target");
 const gridButton = document.getElementById("grid-button-easy");
 
 gridButton.addEventListener("click", function () {
-    
+
     for (let i = 1; i <= 100; i++) {
     
         let output = i;
@@ -26,3 +26,5 @@ gridButton.addEventListener("click", function () {
         })
     }
 });
+
+// BONUS

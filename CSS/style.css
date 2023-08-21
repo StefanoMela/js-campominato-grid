@@ -1,0 +1,23 @@
+/* * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}; */
+
+
+.classic__box {
+
+    width: calc((100% / 10) - 1px);
+    aspect-ratio: 1;
+    border: 1px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.background {
+
+    background-color: blue;
+    color: white;
+}
